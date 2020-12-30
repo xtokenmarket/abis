@@ -1,0 +1,63 @@
+{
+  "name": "xtoken-abis",
+  "version": "0.1.0",
+  "description": "xToken Contract ABIs",
+  "main": "build/main/index.js",
+  "typings": "build/main/index.d.ts",
+  "module": "build/module/index.js",
+  "files": [
+    "build/main",
+    "build/module",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "clean": "rimraf build",
+    "build": "yarn clean && run-p build:*",
+    "build:main": "tsc -p tsconfig.json",
+    "build:module": "tsc -p tsconfig.module.json",
+    "fix": "run-s fix:*",
+    "fix:prettier": "prettier \"src/**/*.ts\" --write",
+    "fix:lint": "eslint src --ext .ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "standard-version",
+    "reset-hard": "git clean -dfx && git reset --hard && yarn",
+    "prepare-release": "run-s reset-hard version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtokenmarket/abis.git"
+  },
+  "keywords": [],
+  "author": "Eswara Sai <eswara@xtoken.market>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xtokenmarket/abis/issues"
+  },
+  "homepage": "https://github.com/xtokenmarket/abis#readme",
+  "engines": {
+    "node": ">=10"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.16",
+    "@typescript-eslint/eslint-plugin": "^4.11.1",
+    "@typescript-eslint/parser": "^4.11.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-functional": "^3.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "standard-version": "^9.1.0",
+    "typescript": "^4.1.3"
+  }
+}

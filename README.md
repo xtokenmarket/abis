@@ -1,2 +1,2 @@
-# abis
-xToken Contract ABIs and Types
+# xToken ABIs
+xToken Contract ABIs
