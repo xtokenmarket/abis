@@ -10,12 +10,16 @@ import {
   SYNTHETIX_ADDRESS_RESOLVER,
   TRADE_ACCOUNTING,
   USDC,
+  WETH,
   X_AAVE_A,
+  X_AAVE_A_BALANCER_POOL,
   X_AAVE_B,
+  X_AAVE_B_BALANCER_POOL,
   X_KNC_A,
   X_KNC_B,
   X_SNX_A,
   X_SNX_A_ADMIN,
+  X_SNX_A_BALANCER_POOL
 } from './constants'
 
 export const ADDRESSES = {
@@ -82,4 +86,16 @@ export const ADDRESSES = {
     1: '0x704De5696dF237c5B9ba0De9ba7e0C63dA8eA0Df',
     42: '0xdAaEEc7279480c7DB83D40010C8336702dE087Ed',
   },
+  [X_AAVE_A_BALANCER_POOL]: {
+    1: '0x33812e984d49ed5b44d75a008c12060e5076238c'
+  },
+  [X_AAVE_B_BALANCER_POOL]: {
+    1: '0xd9346ab5a2ed5e32f5fc69a5cccf45211307ffc5'
+  },
+  [X_SNX_A_BALANCER_POOL]: {
+    1: '0xe3f9cf7d44488715361581dd8b3a15379953eb4c'
+  },
+  [WETH]: {
+    1: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+  }
 }
