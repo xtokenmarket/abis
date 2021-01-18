@@ -1,3 +1,8 @@
+/**
+ * @packageDocumentation
+ * @module XToken Constants
+ */
+
 // Contracts
 export const AAVE = 'aave'
 export const ETH = 'eth'
