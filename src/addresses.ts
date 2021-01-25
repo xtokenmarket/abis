@@ -26,7 +26,11 @@ import {
   X_SNX_A_BALANCER_POOL,
 } from './constants'
 
-export const ADDRESSES = {
+export const ADDRESSES: {
+  readonly [contract: string]: string | {
+    readonly [networkId: number]: string,
+  }
+} = {
   [X_KNC_A]: {
     1: '0xB088b2C7cE300f3fe679d471C2cE49dFE312Ce75',
     3: '0x1A2235890aFdA5e4E02C5E77bbCBcE2E6030fC3B',
@@ -97,10 +101,10 @@ export const ADDRESSES = {
     1: '0xd9346ab5a2ed5e32f5fc69a5cccf45211307ffc5',
   },
   [X_INCH_A]: {
-    1: '0x768BE5C3eC558C16b10Bd35D4b3e3800B7032Ea2',
+    1: '0x866f10E305F01D829Dea993bac71FFc5a76eFa06',
   },
   [X_INCH_B]: {
-    1: '0x768BE5C3eC558C16b10Bd35D4b3e3800B7032Ea2',
+    1: '0xf188370a51E0713457c8B72C114bC522be348682',
   },
   [INCH]: {
     1: '0x111111111117dc0aa78b770fa6a738034120c302',
