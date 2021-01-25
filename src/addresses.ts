@@ -3,6 +3,8 @@ import {
   ETH,
   ETH_RSI_60_40,
   FEE_POOL,
+  INCH,
+  INCH_LIQUIDITY_PROTOCOL,
   KNC,
   KYBER_DAO,
   KYBER_PROXY,
@@ -15,14 +17,20 @@ import {
   X_AAVE_A_BALANCER_POOL,
   X_AAVE_B,
   X_AAVE_B_BALANCER_POOL,
+  X_INCH_A,
+  X_INCH_B,
   X_KNC_A,
   X_KNC_B,
   X_SNX_A,
   X_SNX_A_ADMIN,
-  X_SNX_A_BALANCER_POOL
+  X_SNX_A_BALANCER_POOL,
 } from './constants'
 
-export const ADDRESSES = {
+export const ADDRESSES: {
+  readonly [contract: string]: string | {
+    readonly [networkId: number]: string,
+  }
+} = {
   [X_KNC_A]: {
     1: '0xB088b2C7cE300f3fe679d471C2cE49dFE312Ce75',
     3: '0x1A2235890aFdA5e4E02C5E77bbCBcE2E6030fC3B',
@@ -87,15 +95,27 @@ export const ADDRESSES = {
     42: '0xdAaEEc7279480c7DB83D40010C8336702dE087Ed',
   },
   [X_AAVE_A_BALANCER_POOL]: {
-    1: '0x33812e984d49ed5b44d75a008c12060e5076238c'
+    1: '0x33812e984d49ed5b44d75a008c12060e5076238c',
   },
   [X_AAVE_B_BALANCER_POOL]: {
-    1: '0xd9346ab5a2ed5e32f5fc69a5cccf45211307ffc5'
+    1: '0xd9346ab5a2ed5e32f5fc69a5cccf45211307ffc5',
+  },
+  [X_INCH_A]: {
+    1: '0x866f10E305F01D829Dea993bac71FFc5a76eFa06',
+  },
+  [X_INCH_B]: {
+    1: '0xf188370a51E0713457c8B72C114bC522be348682',
+  },
+  [INCH]: {
+    1: '0x111111111117dc0aa78b770fa6a738034120c302',
+  },
+  [INCH_LIQUIDITY_PROTOCOL]: {
+    1: '0x0EF1B8a0E726Fc3948E15b23993015eB1627f210',
   },
   [X_SNX_A_BALANCER_POOL]: {
-    1: '0xe3f9cf7d44488715361581dd8b3a15379953eb4c'
+    1: '0xe3f9cf7d44488715361581dd8b3a15379953eb4c',
   },
   [WETH]: {
-    1: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
-  }
+    1: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
+  },
 }
