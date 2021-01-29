@@ -29,6 +29,8 @@ export const X_SNX_A = 'xSNXa'
 export const X_SNX_A_ADMIN = 'xSNXaAdmin'
 export const X_AAVE_A_BALANCER_POOL = 'xaaveaBalancerPool'
 export const X_AAVE_B_BALANCER_POOL = 'xaavebBalancerPool'
+export const X_INCH_A_INCH_POOL = 'xinchaInchPool'
+export const X_INCH_B_INCH_POOL = 'xinchbInchPool'
 export const X_SNX_A_BALANCER_POOL = 'xsnxaBalancerPool'
 
 // Trade types

@@ -18,7 +18,9 @@ import {
   X_AAVE_B,
   X_AAVE_B_BALANCER_POOL,
   X_INCH_A,
+  X_INCH_A_INCH_POOL,
   X_INCH_B,
+  X_INCH_B_INCH_POOL,
   X_KNC_A,
   X_KNC_B,
   X_SNX_A,
@@ -27,9 +29,11 @@ import {
 } from './constants'
 
 export const ADDRESSES: {
-  readonly [contract: string]: string | {
-    readonly [networkId: number]: string,
-  }
+  readonly [contract: string]:
+    | string
+    | {
+        readonly [networkId: number]: string
+      }
 } = {
   [X_KNC_A]: {
     1: '0xB088b2C7cE300f3fe679d471C2cE49dFE312Ce75',
@@ -111,6 +115,12 @@ export const ADDRESSES: {
   },
   [INCH_LIQUIDITY_PROTOCOL]: {
     1: '0x0EF1B8a0E726Fc3948E15b23993015eB1627f210',
+  },
+  [X_INCH_A_INCH_POOL]: {
+    1: '0xA90B24fb781C761b3088b4769ACeFd0B27d21E7e',
+  },
+  [X_INCH_B_INCH_POOL]: {
+    1: '0x8A167C219ddE964Aa8D594Af7F635b4a08a08B5d',
   },
   [X_SNX_A_BALANCER_POOL]: {
     1: '0xe3f9cf7d44488715361581dd8b3a15379953eb4c',
