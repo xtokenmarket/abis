@@ -22,7 +22,7 @@
     "fix:lint": "eslint src --ext .ts --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
     "version": "standard-version",
-    "reset-hard": "git clean -dfx && git reset --hard && yarn",
+    "reset-hard": "git clean -dfx -e .idea && git reset --hard && yarn",
     "prepare-release": "run-s reset-hard build version"
   },
   "repository": {
