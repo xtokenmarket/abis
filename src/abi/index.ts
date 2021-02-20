@@ -7,6 +7,7 @@ import KyberDAO from './KyberDAO.json'
 import KyberProxy from './KyberProxy.json'
 import Synthetix from './Synthetix.json'
 import TradeAccounting from './TradeAccounting.json'
+import UniswapV2Pair from './UniswapV2Pair.json'
 import xAAVE from './xAAVE.json'
 import xINCH from './xINCH.json'
 import xKNC from './xKNC.json'
@@ -22,6 +23,7 @@ export const Abi = {
   KyberProxy,
   Synthetix,
   TradeAccounting,
+  UniswapV2Pair,
   xAAVE,
   xKNC,
   xSNX,
