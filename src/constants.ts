@@ -5,6 +5,7 @@
 
 // Contracts
 export const AAVE = 'aave'
+export const AAVE_GOVERNANCE_V2 = 'aaveGovernanceV2'
 export const ETH = 'eth'
 export const ETH_RSI_60_40 = 'ethrsi6040'
 export const EXCHANGE_RATES = 'exchangeRates'

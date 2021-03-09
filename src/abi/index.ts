@@ -1,3 +1,4 @@
+import AaveGovernanceV2 from './AaveGovernanceV2.json'
 import AddressResolver from './AddressResolver.json'
 import BalancerPool from './BalancerPool.json'
 import ERC20 from './ERC20.json'
@@ -14,6 +15,7 @@ import xKNC from './xKNC.json'
 import xSNX from './xSNX.json'
 
 export const Abi = {
+  AaveGovernanceV2,
   AddressResolver,
   BalancerPool,
   ERC20,
