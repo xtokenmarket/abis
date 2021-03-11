@@ -1,5 +1,5 @@
 {
-  "name": "xtoken-abis",
+  "name": "@xtoken/abis",
   "version": "0.1.8",
   "description": "xToken Contract ABIs",
   "main": "build/main/index.js",
@@ -38,6 +38,9 @@
   "homepage": "https://github.com/xtokenmarket/abis#readme",
   "engines": {
     "node": ">=10"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "config": {
     "commitizen": {
