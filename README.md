@@ -4,7 +4,7 @@ Package containing all the xToken contract ABIs and addresses.
 
 ## Install
 ```sh
-yarn add xtoken-abis
+yarn add @xtoken/abis
 ```
 
 ### Build
@@ -23,7 +23,7 @@ yarn fix
 ## Examples
 ```sh
 import { ethers } from 'ethers'
-import { Abis, ADDRESSES, X_AAVE_A } from 'xtoken-abis'
+import { Abis, ADDRESSES, X_AAVE_A } from '@xtoken/abis'
 
 // Setup provider
 const provider = new ethers.providers.InfuraProvider('homestead', '<API KEY>')

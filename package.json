@@ -31,7 +31,7 @@
   },
   "keywords": [],
   "author": "Eswara Sai <eswara@xtoken.market>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/xtokenmarket/abis/issues"
   },
