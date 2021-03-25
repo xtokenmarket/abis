@@ -6,6 +6,7 @@ import ExchangeRates from './ExchangeRates.json'
 import InchLiquidityProtocol from './InchLiquidityProtocol.json'
 import KyberDAO from './KyberDAO.json'
 import KyberProxy from './KyberProxy.json'
+import SushiswapV2Router from './SushiswapV2Router.json'
 import Synthetix from './Synthetix.json'
 import TradeAccounting from './TradeAccounting.json'
 import UniswapV2Pair from './UniswapV2Pair.json'
@@ -23,6 +24,7 @@ export const Abi = {
   InchLiquidityProtocol,
   KyberDAO,
   KyberProxy,
+  SushiswapV2Router,
   Synthetix,
   TradeAccounting,
   UniswapV2Pair,
