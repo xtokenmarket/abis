@@ -109,3 +109,6 @@ build
 # IDE
 .idea
 .vscode
+
+# NPM cache
+~/.npm

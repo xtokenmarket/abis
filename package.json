@@ -40,7 +40,8 @@
     "node": ">=10"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "cache": "~/.npm"
   },
   "config": {
     "commitizen": {
