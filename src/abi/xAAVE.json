@@ -95,8 +95,7 @@
     "type": "event"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "LIQUIDATION_TIME_PERIOD",
     "outputs": [
       {
@@ -110,7 +109,19 @@
   },
   {
     "inputs": [
+      {
+        "internalType": "address",
+        "name": "_address",
+        "type": "address"
+      }
     ],
+    "name": "addToWhitelist",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "adminActiveTimestamp",
     "outputs": [
       {
@@ -179,17 +190,14 @@
       }
     ],
     "name": "approveKyberContract",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "approveStakingContract",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
@@ -231,8 +239,7 @@
       }
     ],
     "name": "burn",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
@@ -266,29 +273,23 @@
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "certifyAdmin",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "claim",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "claimExternal",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
@@ -306,23 +307,19 @@
       }
     ],
     "name": "convertTokensToTarget",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "cooldown",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "cooldownActivated",
     "outputs": [
       {
@@ -335,8 +332,7 @@
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "decimals",
     "outputs": [
       {
@@ -373,20 +369,16 @@
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "disableCooldown",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "emergencyCooldown",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
@@ -399,14 +391,12 @@
       }
     ],
     "name": "emergencyRedeem",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "feeDivisors",
     "outputs": [
       {
@@ -429,8 +419,7 @@
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "getBufferBalance",
     "outputs": [
       {
@@ -443,8 +432,7 @@
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "getFundBalances",
     "outputs": [
       {
@@ -462,8 +450,7 @@
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "getFundHoldings",
     "outputs": [
       {
@@ -476,8 +463,7 @@
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "getStakedBalance",
     "outputs": [
       {
@@ -567,14 +553,12 @@
       }
     ],
     "name": "initialize",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "mandate",
     "outputs": [
       {
@@ -595,8 +579,7 @@
       }
     ],
     "name": "mint",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "payable",
     "type": "function"
   },
@@ -606,17 +589,20 @@
         "internalType": "uint256",
         "name": "aaveAmount",
         "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "affiliate",
+        "type": "address"
       }
     ],
     "name": "mintWithToken",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "name",
     "outputs": [
       {
@@ -629,8 +615,7 @@
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "owner",
     "outputs": [
       {
@@ -643,8 +628,7 @@
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "pauseContract",
     "outputs": [
       {
@@ -657,8 +641,7 @@
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "paused",
     "outputs": [
       {
@@ -679,17 +662,27 @@
       }
     ],
     "name": "redeem",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
     "inputs": [
+      {
+        "internalType": "address",
+        "name": "_address",
+        "type": "address"
+      }
     ],
+    "name": "removeFromWhitelist",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "renounceOwnership",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
@@ -712,8 +705,7 @@
       }
     ],
     "name": "setFeeDivisors",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
@@ -726,8 +718,7 @@
       }
     ],
     "name": "setGovernanceV2Address",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
@@ -740,8 +731,20 @@
       }
     ],
     "name": "setManager",
-    "outputs": [
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_manager2",
+        "type": "address"
+      }
     ],
+    "name": "setManager2",
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
@@ -754,14 +757,12 @@
       }
     ],
     "name": "setVotingAaveAddress",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "symbol",
     "outputs": [
       {
@@ -774,8 +775,7 @@
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "totalSupply",
     "outputs": [
       {
@@ -849,14 +849,12 @@
       }
     ],
     "name": "transferOwnership",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "unpauseContract",
     "outputs": [
       {
@@ -882,8 +880,7 @@
       }
     ],
     "name": "vote",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
@@ -901,32 +898,26 @@
       }
     ],
     "name": "voteV2",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "withdrawFees",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "withdrawNativeToken",
-    "outputs": [
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
-    "inputs": [
-    ],
+    "inputs": [],
     "name": "withdrawableAaveFees",
     "outputs": [
       {
