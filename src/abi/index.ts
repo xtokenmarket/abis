@@ -4,7 +4,7 @@ import BalancerPool from './BalancerPool.json'
 import ERC20 from './ERC20.json'
 import ExchangeRates from './ExchangeRates.json'
 import InchLiquidityProtocol from './InchLiquidityProtocol.json'
-import KyberDAO from './KyberDAO.json'
+import KyberGovernance from './KyberGovernance.json'
 import KyberProxy from './KyberProxy.json'
 import Synthetix from './Synthetix.json'
 import TradeAccounting from './TradeAccounting.json'
@@ -21,7 +21,7 @@ export const Abi = {
   ERC20,
   ExchangeRates,
   InchLiquidityProtocol,
-  KyberDAO,
+  KyberGovernance,
   KyberProxy,
   Synthetix,
   TradeAccounting,
