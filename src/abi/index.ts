@@ -4,6 +4,7 @@ import BalancerPool from './BalancerPool.json'
 import BancorContractRegistry from './BancorContractRegistry.json'
 import BancorNetwork from './BancorNetwork.json'
 import BancorSmartToken from './BancorSmartToken.json'
+import DMMPool from './DMMPool.json'
 import ERC20 from './ERC20.json'
 import ExchangeRates from './ExchangeRates.json'
 import InchLiquidityProtocol from './InchLiquidityProtocol.json'
@@ -25,6 +26,7 @@ export const Abi = {
   BancorContractRegistry,
   BancorNetwork,
   BancorSmartToken,
+  DMMPool,
   ERC20,
   ExchangeRates,
   InchLiquidityProtocol,
