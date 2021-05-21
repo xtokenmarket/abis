@@ -1,0 +1,55 @@
+/**
+ * @packageDocumentation
+ * @module XToken Constants
+ */
+export declare const AAVE = "aave";
+export declare const AAVE_GOVERNANCE_V2 = "aaveGovernanceV2";
+export declare const BANCOR_CONTRACT_REGISTRY = "bancorContractRegistry";
+export declare const BNT = "bnt";
+export declare const DAI = "dai";
+export declare const DMM_FACTORY = "dmmFactory";
+export declare const ETH = "eth";
+export declare const ETH_BNT_ANCHOR = "ethBntAnchor";
+export declare const ETH_RSI_60_40 = "ethrsi6040";
+export declare const EXCHANGE_RATES = "exchangeRates";
+export declare const FEE_POOL = "feePool";
+export declare const INCH = "inch";
+export declare const INCH_LIQUIDITY_PROTOCOL = "1InchLiquidityProtocol";
+export declare const KNC = "knc";
+export declare const KYBER_GOVERNANCE = "kyberGovernance";
+export declare const KYBER_PROXY = "kyberProxy";
+export declare const SNX = "snx";
+export declare const S_ETH = "sETH";
+export declare const S_USD = "sUSD";
+export declare const SYNTHETIX_ADDRESS_RESOLVER = "synthetixAddressResolver";
+export declare const TRADE_ACCOUNTING = "tradeAccounting";
+export declare const UNISWAP_V2_PAIR = "uniswapV2Pair";
+export declare const USDC = "usdc";
+export declare const USDT = "usdt";
+export declare const WETH = "weth";
+export declare const X_AAVE_A = "xAAVEa";
+export declare const X_AAVE_B = "xAAVEb";
+export declare const X_BNT_A = "xBNTa";
+export declare const X_BNT_A_BANCOR_POOL = "xbntaBancorPool";
+export declare const X_BNT_A_MERKLE_CLAIM = "xBNTaMerkleClaim";
+export declare const X_INCH_A = "xINCHa";
+export declare const X_INCH_B = "xINCHb";
+export declare const X_KNC_A = "xKNCa";
+export declare const X_KNC_B = "xKNCb";
+export declare const X_KNC_A_KYBER_POOL = "xkncaKyberPool";
+export declare const X_KNC_A_UNISWAP_POOL = "xkncaUniswapPool";
+export declare const X_KNC_B_UNISWAP_POOL = "xkncbUniswapPool";
+export declare const X_SNX_A = "xSNXa";
+export declare const X_SNX_A_ADMIN = "xSNXaAdmin";
+export declare const X_SNX_A_MERKLE_CLAIM = "xSNXaMerkleClaim";
+export declare const X_AAVE_A_BALANCER_POOL = "xaaveaBalancerPool";
+export declare const X_AAVE_B_BALANCER_POOL = "xaavebBalancerPool";
+export declare const X_INCH_A_INCH_POOL = "xinchaInchPool";
+export declare const X_INCH_B_INCH_POOL = "xinchbInchPool";
+export declare const X_SNX_A_BALANCER_POOL = "xsnxaBalancerPool";
+export declare const X_U3LP_A = "xU3LPa";
+export declare const X_U3LP_B = "xU3LPb";
+export declare const X_U3LP_C = "xU3LPc";
+export declare const X_U3LP_D = "xU3LPd";
+export declare const BUY = "buy";
+export declare const SELL = "sell";
