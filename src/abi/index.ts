@@ -10,6 +10,7 @@ import ExchangeRates from './ExchangeRates.json'
 import InchLiquidityProtocol from './InchLiquidityProtocol.json'
 import KyberGovernance from './KyberGovernance.json'
 import KyberProxy from './KyberProxy.json'
+import MerkleClaim from './MerkleClaim.json'
 import Synthetix from './Synthetix.json'
 import TradeAccounting from './TradeAccounting.json'
 import UniswapV2Pair from './UniswapV2Pair.json'
@@ -32,6 +33,7 @@ export const Abi = {
   InchLiquidityProtocol,
   KyberGovernance,
   KyberProxy,
+  MerkleClaim,
   Synthetix,
   TradeAccounting,
   UniswapV2Pair,
