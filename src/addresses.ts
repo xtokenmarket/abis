@@ -45,7 +45,7 @@ import {
   X_U3LP_A,
   X_U3LP_B,
   X_U3LP_C,
-  X_U3LP_D,
+  // X_U3LP_D,
 } from './constants'
 
 export const ADDRESSES: {
@@ -207,7 +207,7 @@ export const ADDRESSES: {
   [X_U3LP_C]: {
     1: '0x74e87FBA6C4bCd17fe5f14D73f590eD3C13E821B',
   },
-  [X_U3LP_D]: {
-    1: '0x81E183b1eb969C87c65619b9A653b79812129cC9',
-  },
+  // [X_U3LP_D]: {
+  //   1: '0x81E183b1eb969C87c65619b9A653b79812129cC9',
+  // },
 }

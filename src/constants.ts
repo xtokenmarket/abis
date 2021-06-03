@@ -52,7 +52,7 @@ export const X_SNX_A_BALANCER_POOL = 'xsnxaBalancerPool'
 export const X_U3LP_A = 'xU3LPa'
 export const X_U3LP_B = 'xU3LPb'
 export const X_U3LP_C = 'xU3LPc'
-export const X_U3LP_D = 'xU3LPd'
+// export const X_U3LP_D = 'xU3LPd'
 
 // Trade types
 export const BUY = 'buy'
