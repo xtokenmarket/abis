@@ -14,11 +14,13 @@ import MerkleClaim from './MerkleClaim.json'
 import Synthetix from './Synthetix.json'
 import TradeAccounting from './TradeAccounting.json'
 import UniswapV2Pair from './UniswapV2Pair.json'
+import UniswapV3Pool from './UniswapV3Pool.json'
 import xAAVE from './xAAVE.json'
 import xBNT from './xBNT.json'
 import xINCH from './xINCH.json'
 import xKNC from './xKNC.json'
 import xSNX from './xSNX.json'
+import xU3LP from './xU3LP.json'
 
 export const Abi = {
   AaveGovernanceV2,
@@ -37,9 +39,11 @@ export const Abi = {
   Synthetix,
   TradeAccounting,
   UniswapV2Pair,
+  UniswapV3Pool,
   xAAVE,
   xBNT,
   xKNC,
   xSNX,
   xINCH,
+  xU3LP,
 }

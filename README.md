@@ -12,6 +12,20 @@ yarn add @xtoken/abis
 yarn build
 ```
 
+### Link
+
+Link `@xtoken/abis` package via [yarn](https://classic.yarnpkg.com/en/docs/cli/link/) for local development and testing the integration on the UI
+
+```sh
+$ cd js
+$ yarn link # @xtoken/abis package will be linked to the local copy
+
+$ cd cafe
+$ yarn link @xtoken/abis # This will create a symlink named cafe/node_modules/@xtoken/abis that links to the local copy of the xToken abis project
+
+$ yarn unlink # To unlink the installed package
+```
+
 ### Linting
 
 To automatically fix `eslint` and `prettier` formatting issues, run:
