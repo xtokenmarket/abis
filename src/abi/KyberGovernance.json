@@ -1,9 +1,21 @@
 [
   {
     "inputs": [
-      { "internalType": "address", "name": "admin", "type": "address" },
-      { "internalType": "address", "name": "daoOperator", "type": "address" },
-      { "internalType": "address[]", "name": "executors", "type": "address[]" },
+      {
+        "internalType": "address",
+        "name": "admin",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "daoOperator",
+        "type": "address"
+      },
+      {
+        "internalType": "address[]",
+        "name": "executors",
+        "type": "address[]"
+      },
       {
         "internalType": "address[]",
         "name": "votingPowerStrategies",
@@ -384,34 +396,62 @@
   {
     "inputs": [],
     "name": "DOMAIN_TYPEHASH",
-    "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "NAME",
-    "outputs": [{ "internalType": "string", "name": "", "type": "string" }],
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "",
+        "type": "string"
+      }
+    ],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "VOTE_EMITTED_TYPEHASH",
-    "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "admin",
-    "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      { "internalType": "address[]", "name": "executors", "type": "address[]" }
+      {
+        "internalType": "address[]",
+        "name": "executors",
+        "type": "address[]"
+      }
     ],
     "name": "authorizeExecutors",
     "outputs": [],
@@ -420,7 +460,11 @@
   },
   {
     "inputs": [
-      { "internalType": "address[]", "name": "strategies", "type": "address[]" }
+      {
+        "internalType": "address[]",
+        "name": "strategies",
+        "type": "address[]"
+      }
     ],
     "name": "authorizeVotingPowerStrategies",
     "outputs": [],
@@ -429,7 +473,11 @@
   },
   {
     "inputs": [
-      { "internalType": "uint256", "name": "proposalId", "type": "uint256" }
+      {
+        "internalType": "uint256",
+        "name": "proposalId",
+        "type": "uint256"
+      }
     ],
     "name": "cancel",
     "outputs": [],
@@ -472,7 +520,11 @@
             "name": "signatures",
             "type": "string[]"
           },
-          { "internalType": "bytes[]", "name": "calldatas", "type": "bytes[]" },
+          {
+            "internalType": "bytes[]",
+            "name": "calldatas",
+            "type": "bytes[]"
+          },
           {
             "internalType": "bool[]",
             "name": "withDelegatecalls",
@@ -483,13 +535,29 @@
         "name": "executionParams",
         "type": "tuple"
       },
-      { "internalType": "uint256", "name": "startTime", "type": "uint256" },
-      { "internalType": "uint256", "name": "endTime", "type": "uint256" },
-      { "internalType": "string", "name": "link", "type": "string" }
+      {
+        "internalType": "uint256",
+        "name": "startTime",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "endTime",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "link",
+        "type": "string"
+      }
     ],
     "name": "createBinaryProposal",
     "outputs": [
-      { "internalType": "uint256", "name": "proposalId", "type": "uint256" }
+      {
+        "internalType": "uint256",
+        "name": "proposalId",
+        "type": "uint256"
+      }
     ],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -506,21 +574,45 @@
         "name": "strategy",
         "type": "address"
       },
-      { "internalType": "string[]", "name": "options", "type": "string[]" },
-      { "internalType": "uint256", "name": "startTime", "type": "uint256" },
-      { "internalType": "uint256", "name": "endTime", "type": "uint256" },
-      { "internalType": "string", "name": "link", "type": "string" }
+      {
+        "internalType": "string[]",
+        "name": "options",
+        "type": "string[]"
+      },
+      {
+        "internalType": "uint256",
+        "name": "startTime",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "endTime",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "link",
+        "type": "string"
+      }
     ],
     "name": "createGenericProposal",
     "outputs": [
-      { "internalType": "uint256", "name": "proposalId", "type": "uint256" }
+      {
+        "internalType": "uint256",
+        "name": "proposalId",
+        "type": "uint256"
+      }
     ],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
     "inputs": [
-      { "internalType": "uint256", "name": "proposalId", "type": "uint256" }
+      {
+        "internalType": "uint256",
+        "name": "proposalId",
+        "type": "uint256"
+      }
     ],
     "name": "execute",
     "outputs": [],
@@ -530,25 +622,43 @@
   {
     "inputs": [],
     "name": "getDaoOperator",
-    "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      { "internalType": "uint256", "name": "proposalId", "type": "uint256" }
+      {
+        "internalType": "uint256",
+        "name": "proposalId",
+        "type": "uint256"
+      }
     ],
     "name": "getProposalById",
     "outputs": [
       {
         "components": [
-          { "internalType": "uint256", "name": "id", "type": "uint256" },
+          {
+            "internalType": "uint256",
+            "name": "id",
+            "type": "uint256"
+          },
           {
             "internalType": "enum IKyberGovernance.ProposalType",
             "name": "proposalType",
             "type": "uint8"
           },
-          { "internalType": "address", "name": "creator", "type": "address" },
+          {
+            "internalType": "address",
+            "name": "creator",
+            "type": "address"
+          },
           {
             "internalType": "contract IExecutorWithTimelock",
             "name": "executor",
@@ -574,13 +684,21 @@
             "name": "signatures",
             "type": "string[]"
           },
-          { "internalType": "bytes[]", "name": "calldatas", "type": "bytes[]" },
+          {
+            "internalType": "bytes[]",
+            "name": "calldatas",
+            "type": "bytes[]"
+          },
           {
             "internalType": "bool[]",
             "name": "withDelegatecalls",
             "type": "bool[]"
           },
-          { "internalType": "string[]", "name": "options", "type": "string[]" },
+          {
+            "internalType": "string[]",
+            "name": "options",
+            "type": "string[]"
+          },
           {
             "internalType": "uint256[]",
             "name": "voteCounts",
@@ -596,16 +714,36 @@
             "name": "maxVotingPower",
             "type": "uint256"
           },
-          { "internalType": "uint256", "name": "startTime", "type": "uint256" },
-          { "internalType": "uint256", "name": "endTime", "type": "uint256" },
+          {
+            "internalType": "uint256",
+            "name": "startTime",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "endTime",
+            "type": "uint256"
+          },
           {
             "internalType": "uint256",
             "name": "executionTime",
             "type": "uint256"
           },
-          { "internalType": "string", "name": "link", "type": "string" },
-          { "internalType": "bool", "name": "executed", "type": "bool" },
-          { "internalType": "bool", "name": "canceled", "type": "bool" }
+          {
+            "internalType": "string",
+            "name": "link",
+            "type": "string"
+          },
+          {
+            "internalType": "bool",
+            "name": "executed",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "canceled",
+            "type": "bool"
+          }
         ],
         "internalType": "struct IKyberGovernance.ProposalWithoutVote",
         "name": "",
@@ -617,7 +755,11 @@
   },
   {
     "inputs": [
-      { "internalType": "uint256", "name": "proposalId", "type": "uint256" }
+      {
+        "internalType": "uint256",
+        "name": "proposalId",
+        "type": "uint256"
+      }
     ],
     "name": "getProposalState",
     "outputs": [
@@ -632,13 +774,29 @@
   },
   {
     "inputs": [
-      { "internalType": "uint256", "name": "proposalId", "type": "uint256" }
+      {
+        "internalType": "uint256",
+        "name": "proposalId",
+        "type": "uint256"
+      }
     ],
     "name": "getProposalVoteDataById",
     "outputs": [
-      { "internalType": "uint256", "name": "", "type": "uint256" },
-      { "internalType": "uint256[]", "name": "", "type": "uint256[]" },
-      { "internalType": "string[]", "name": "", "type": "string[]" }
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "",
+        "type": "uint256[]"
+      },
+      {
+        "internalType": "string[]",
+        "name": "",
+        "type": "string[]"
+      }
     ],
     "stateMutability": "view",
     "type": "function"
@@ -646,14 +804,28 @@
   {
     "inputs": [],
     "name": "getProposalsCount",
-    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      { "internalType": "uint256", "name": "proposalId", "type": "uint256" },
-      { "internalType": "address", "name": "voter", "type": "address" }
+      {
+        "internalType": "uint256",
+        "name": "proposalId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "voter",
+        "type": "address"
+      }
     ],
     "name": "getVoteOnProposal",
     "outputs": [
@@ -680,7 +852,11 @@
   },
   {
     "inputs": [
-      { "internalType": "address", "name": "voter", "type": "address" },
+      {
+        "internalType": "address",
+        "name": "voter",
+        "type": "address"
+      },
       {
         "internalType": "uint256",
         "name": "newVotingPower",
@@ -699,32 +875,62 @@
   },
   {
     "inputs": [
-      { "internalType": "address", "name": "executor", "type": "address" }
+      {
+        "internalType": "address",
+        "name": "executor",
+        "type": "address"
+      }
     ],
     "name": "isExecutorAuthorized",
-    "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      { "internalType": "address", "name": "strategy", "type": "address" }
+      {
+        "internalType": "address",
+        "name": "strategy",
+        "type": "address"
+      }
     ],
     "name": "isVotingPowerStrategyAuthorized",
-    "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "pendingAdmin",
-    "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      { "internalType": "uint256", "name": "proposalId", "type": "uint256" }
+      {
+        "internalType": "uint256",
+        "name": "proposalId",
+        "type": "uint256"
+      }
     ],
     "name": "queue",
     "outputs": [],
@@ -733,8 +939,16 @@
   },
   {
     "inputs": [
-      { "internalType": "uint256", "name": "proposalId", "type": "uint256" },
-      { "internalType": "uint256", "name": "optionBitMask", "type": "uint256" }
+      {
+        "internalType": "uint256",
+        "name": "proposalId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "optionBitMask",
+        "type": "uint256"
+      }
     ],
     "name": "submitVote",
     "outputs": [],
@@ -743,11 +957,31 @@
   },
   {
     "inputs": [
-      { "internalType": "uint256", "name": "proposalId", "type": "uint256" },
-      { "internalType": "uint256", "name": "optionBitMask", "type": "uint256" },
-      { "internalType": "uint8", "name": "v", "type": "uint8" },
-      { "internalType": "bytes32", "name": "r", "type": "bytes32" },
-      { "internalType": "bytes32", "name": "s", "type": "bytes32" }
+      {
+        "internalType": "uint256",
+        "name": "proposalId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "optionBitMask",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint8",
+        "name": "v",
+        "type": "uint8"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "r",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "s",
+        "type": "bytes32"
+      }
     ],
     "name": "submitVoteBySignature",
     "outputs": [],
@@ -756,7 +990,11 @@
   },
   {
     "inputs": [
-      { "internalType": "address", "name": "newAdmin", "type": "address" }
+      {
+        "internalType": "address",
+        "name": "newAdmin",
+        "type": "address"
+      }
     ],
     "name": "transferAdmin",
     "outputs": [],
@@ -765,7 +1003,11 @@
   },
   {
     "inputs": [
-      { "internalType": "address", "name": "newAdmin", "type": "address" }
+      {
+        "internalType": "address",
+        "name": "newAdmin",
+        "type": "address"
+      }
     ],
     "name": "transferAdminQuickly",
     "outputs": [],
@@ -774,7 +1016,11 @@
   },
   {
     "inputs": [
-      { "internalType": "address", "name": "newDaoOperator", "type": "address" }
+      {
+        "internalType": "address",
+        "name": "newDaoOperator",
+        "type": "address"
+      }
     ],
     "name": "transferDaoOperator",
     "outputs": [],
@@ -783,7 +1029,11 @@
   },
   {
     "inputs": [
-      { "internalType": "address[]", "name": "executors", "type": "address[]" }
+      {
+        "internalType": "address[]",
+        "name": "executors",
+        "type": "address[]"
+      }
     ],
     "name": "unauthorizeExecutors",
     "outputs": [],
@@ -792,7 +1042,11 @@
   },
   {
     "inputs": [
-      { "internalType": "address[]", "name": "strategies", "type": "address[]" }
+      {
+        "internalType": "address[]",
+        "name": "strategies",
+        "type": "address[]"
+      }
     ],
     "name": "unauthorizeVotingPowerStrategies",
     "outputs": [],
