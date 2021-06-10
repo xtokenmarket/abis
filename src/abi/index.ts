@@ -1,6 +1,7 @@
 import AaveGovernanceV2 from './AaveGovernanceV2.json'
 import AddressResolver from './AddressResolver.json'
 import BalancerPool from './BalancerPool.json'
+import BalancerV2Vault from './BalancerV2Vault.json'
 import BancorContractRegistry from './BancorContractRegistry.json'
 import BancorNetwork from './BancorNetwork.json'
 import BancorSmartToken from './BancorSmartToken.json'
@@ -26,6 +27,7 @@ export const Abi = {
   AaveGovernanceV2,
   AddressResolver,
   BalancerPool,
+  BalancerV2Vault,
   BancorContractRegistry,
   BancorNetwork,
   BancorSmartToken,
