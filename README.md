@@ -17,7 +17,7 @@ yarn build
 Link `@xtoken/abis` package via [yarn](https://classic.yarnpkg.com/en/docs/cli/link/) for local development and testing the integration on the UI
 
 ```sh
-$ cd js
+$ cd abis
 $ yarn link # @xtoken/abis package will be linked to the local copy
 
 $ cd cafe
