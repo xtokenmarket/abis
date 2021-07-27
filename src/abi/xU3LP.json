@@ -216,6 +216,29 @@
     "inputs": [
       {
         "internalType": "uint256",
+        "name": "minReturn",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bool",
+        "name": "_0for1",
+        "type": "bool"
+      },
+      {
+        "internalType": "bytes",
+        "name": "_oneInchData",
+        "type": "bytes"
+      }
+    ],
+    "name": "adminSwapOneInch",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
         "name": "amount0",
         "type": "uint256"
       },
@@ -275,6 +298,13 @@
         "type": "bool"
       }
     ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "approveOneInch",
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
@@ -492,6 +522,30 @@
     "type": "function"
   },
   {
+    "inputs": [
+      {
+        "internalType": "uint128",
+        "name": "liquidity",
+        "type": "uint128"
+      }
+    ],
+    "name": "getAmountsForLiquidity",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "amount0",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "amount1",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
     "inputs": [],
     "name": "getAsset0Price",
     "outputs": [
@@ -575,6 +629,30 @@
     "type": "function"
   },
   {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "amount0",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "amount1",
+        "type": "uint256"
+      }
+    ],
+    "name": "getLiquidityForAmounts",
+    "outputs": [
+      {
+        "internalType": "uint128",
+        "name": "liquidity",
+        "type": "uint128"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
     "inputs": [],
     "name": "getNav",
     "outputs": [
@@ -589,12 +667,12 @@
   },
   {
     "inputs": [],
-    "name": "getObservationTime",
+    "name": "getPositionLiquidity",
     "outputs": [
       {
-        "internalType": "uint32",
-        "name": "",
-        "type": "uint32"
+        "internalType": "uint128",
+        "name": "liquidity",
+        "type": "uint128"
       }
     ],
     "stateMutability": "view",
@@ -719,17 +797,17 @@
         "type": "address"
       },
       {
-        "internalType": "contract IUniswapV3Pool",
+        "internalType": "address",
         "name": "_pool",
         "type": "address"
       },
       {
-        "internalType": "contract ISwapRouter",
+        "internalType": "address",
         "name": "_router",
         "type": "address"
       },
       {
-        "internalType": "contract INonfungiblePositionManager",
+        "internalType": "address",
         "name": "_positionManager",
         "type": "address"
       },
@@ -903,6 +981,32 @@
   },
   {
     "inputs": [],
+    "name": "poolAddress",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "positionManagerAddress",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "rebalance",
     "outputs": [],
     "stateMutability": "nonpayable",
@@ -920,6 +1024,19 @@
     "name": "resetTwap",
     "outputs": [],
     "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "routerAddress",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -955,32 +1072,6 @@
   {
     "inputs": [
       {
-        "internalType": "address",
-        "name": "_manager",
-        "type": "address"
-      }
-    ],
-    "name": "setManager",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "address",
-        "name": "_manager2",
-        "type": "address"
-      }
-    ],
-    "name": "setManager2",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
         "internalType": "uint256",
         "name": "newDeviationDivisor",
         "type": "uint256"
@@ -1000,6 +1091,19 @@
       }
     ],
     "name": "setTwapPeriod",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IxTokenManager",
+        "name": "_manager",
+        "type": "address"
+      }
+    ],
+    "name": "setxTokenManager",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
