@@ -26,6 +26,7 @@ import xBNT from './xBNT.json'
 import xINCH from './xINCH.json'
 import xKNC from './xKNC.json'
 import xSNX from './xSNX.json'
+import xSNXAdmin from './xSNXAdmin.json'
 import xTokenManager from './xTokenManager.json'
 import xU3LP from './xU3LP.json'
 
@@ -58,6 +59,7 @@ export const Abi = {
   xINCH,
   xKNC,
   xSNX,
+  xSNXAdmin,
   xTokenManager,
   xU3LP,
 }
