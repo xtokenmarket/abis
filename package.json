@@ -1,6 +1,6 @@
 {
   "name": "@xtoken/abis",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "description": "xToken Contract ABIs",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
