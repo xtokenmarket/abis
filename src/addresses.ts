@@ -1,6 +1,7 @@
 import {
   AAVE,
   AAVE_GOVERNANCE_V2,
+  AAVE_X_AAVE_A_CLR,
   BALANCER_V2_VAULT,
   BANCOR_CONTRACT_REGISTRY,
   BNT,
@@ -65,6 +66,7 @@ import {
   XTOKEN_MANAGER,
 } from './constants'
 
+// TODO: Sort them into categories similar to `constants.ts`
 export const ADDRESSES: {
   readonly [contract: string]:
     | string
@@ -280,5 +282,10 @@ export const ADDRESSES: {
   },
   [XTOKEN_MANAGER]: {
     1: '0xfA3CaAb19E6913b6aAbdda4E27ac413e96EaB0Ca',
+  },
+
+  // xAsset CLR
+  [AAVE_X_AAVE_A_CLR]: {
+    1: '0x1c632320EB1F031314Ed682e16B5B97f7FE280B4',
   },
 }
