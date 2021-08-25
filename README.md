@@ -47,3 +47,11 @@ const { chainId } = network
 // Initialise xAAVEa contract
 const xaaveContract = new ethers.Contract(ADDRESSES[X_AAVE_A][chainId], Abis.xAAVE, provider)
 ```
+
+## Adding new contracts
+```sh
+1. Add Contract constants in constants.ts
+2. Add mainnet addresses based on the constants in addresses.ts
+3. Add the contract abis in abis/
+4. Export the ABIs in abis/index.ts
+```
