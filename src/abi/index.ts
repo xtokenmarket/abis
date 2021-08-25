@@ -31,6 +31,14 @@ import xSNX from './xSNX.json'
 import xSNXAdmin from './xSNXAdmin.json'
 import xTokenManager from './xTokenManager.json'
 import xU3LP from './xU3LP.json'
+import Comptroller from './lending/Comptroller.json'
+import LiquidityPool from './lending/LiquidityPool.json'
+import LPT from './lending/LPT.json'
+import Market from './lending/Market.json'
+import xAAVEPrice from './lending/XAAVEPrice.json'
+import xINCHPrice from './lending/XINCHPrice.json'
+import xKNCPrice from './lending/XKNCPrice.json'
+import xU3LPPrice from './lending/XU3LPPrice.json'
 
 export const Abi = {
   AaveGovernanceV2,
@@ -66,4 +74,12 @@ export const Abi = {
   xSNXAdmin,
   xTokenManager,
   xU3LP,
+  Comptroller,
+  LiquidityPool,
+  LPT,
+  Market,
+  xAAVEPrice,
+  xINCHPrice,
+  xKNCPrice,
+  xU3LPPrice
 }
