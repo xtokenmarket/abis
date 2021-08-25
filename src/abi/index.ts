@@ -1,34 +1,51 @@
-import AaveGovernanceV2 from './AaveGovernanceV2.json'
-import AddressResolver from './AddressResolver.json'
-import BalancerPool from './BalancerPool.json'
-import BalancerV2Vault from './BalancerV2Vault.json'
-import BancorContractRegistry from './BancorContractRegistry.json'
-import BancorNetwork from './BancorNetwork.json'
-import BancorSmartToken from './BancorSmartToken.json'
-import DMMPool from './DMMPool.json'
-import ERC20 from './ERC20.json'
-import ExchangeRates from './ExchangeRates.json'
-import InchLiquidityProtocol from './InchLiquidityProtocol.json'
-import KyberGovernance from './KyberGovernance.json'
-import KyberProxy from './KyberProxy.json'
-import MerkleClaim from './MerkleClaim.json'
-import ProxyAdmin from './ProxyAdmin.json'
-import RevenueController from './RevenueController.json'
-import RewardController from './RewardController.json'
-import Synthetix from './Synthetix.json'
-import TradeAccounting from './TradeAccounting.json'
-import UniswapLibrary from './UniswapLibrary.json'
-import UniswapV2Pair from './UniswapV2Pair.json'
-import UniswapV3Pool from './UniswapV3Pool.json'
-import XTKManagementStakingModule from './XTKManagementStakingModule.json'
-import xAAVE from './xAAVE.json'
-import xBNT from './xBNT.json'
-import xINCH from './xINCH.json'
-import xKNC from './xKNC.json'
-import xSNX from './xSNX.json'
-import xSNXAdmin from './xSNXAdmin.json'
-import xTokenManager from './xTokenManager.json'
-import xU3LP from './xU3LP.json'
+import AaveGovernanceV2 from './helpers/AaveGovernanceV2.json'
+import AddressResolver from './helpers/AddressResolver.json'
+import BalancerPool from './helpers/BalancerPool.json'
+import BalancerV2Vault from './helpers/BalancerV2Vault.json'
+import BancorContractRegistry from './helpers/BancorContractRegistry.json'
+import BancorNetwork from './helpers/BancorNetwork.json'
+import BancorSmartToken from './helpers/BancorSmartToken.json'
+import DMMPool from './helpers/DMMPool.json'
+import ERC20 from './helpers/ERC20.json'
+import ExchangeRates from './helpers/ExchangeRates.json'
+import InchLiquidityProtocol from './helpers/InchLiquidityProtocol.json'
+import KyberGovernance from './helpers/KyberGovernance.json'
+import KyberProxy from './helpers/KyberProxy.json'
+import MerkleClaim from './helpers/MerkleClaim.json'
+import ProxyAdmin from './helpers/ProxyAdmin.json'
+import TradeAccounting from './helpers/TradeAccounting.json'
+import UniswapLibrary from './helpers/UniswapLibrary.json'
+import UniswapV2Pair from './helpers/UniswapV2Pair.json'
+import UniswapV3Pool from './helpers/UniswapV3Pool.json'
+import xSNXAdmin from './helpers/xSNXAdmin.json'
+import Synthetix from './helpers/Synthetix.json'
+import xTokenManager from './helpers/xTokenManager.json'
+
+// --- Staking ---
+
+import XTKManagementStakingModule from './staking/XTKManagementStakingModule.json'
+import RevenueController from './staking/RevenueController.json'
+import RewardController from './staking/RewardController.json'
+
+// --- Lending ---
+
+import Comptroller from './lending/Comptroller.json'
+import LiquidityPool from './lending/LiquidityPool.json'
+import LPT from './lending/LPT.json'
+import Market from './lending/Market.json'
+import xAAVEPrice from './lending/XAAVEPrice.json'
+import xINCHPrice from './lending/XINCHPrice.json'
+import xKNCPrice from './lending/XKNCPrice.json'
+import xU3LPPrice from './lending/XU3LPPrice.json'
+
+// --- xAssets ---
+
+import xAAVE from './xAssets/xAAVE.json'
+import xBNT from './xAssets/xBNT.json'
+import xINCH from './xAssets/xINCH.json'
+import xKNC from './xAssets/xKNC.json'
+import xSNX from './xAssets/xSNX.json'
+import xU3LP from './xAssets/xU3LP.json'
 
 export const Abi = {
   AaveGovernanceV2,
@@ -62,4 +79,12 @@ export const Abi = {
   xSNXAdmin,
   xTokenManager,
   xU3LP,
+  Comptroller,
+  LiquidityPool,
+  LPT,
+  Market,
+  xAAVEPrice,
+  xINCHPrice,
+  xKNCPrice,
+  xU3LPPrice
 }
