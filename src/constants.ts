@@ -113,7 +113,6 @@ export const LENDING_X_INCH_B_PRICE = 'xINCHbPrice'
 export const LENDING_X_KNC_A_PRICE = 'xKNCaPrice'
 export const LENDING_X_KNC_B_PRICE = 'xKNCbPrice'
 
-
 // Trade types
 export const BUY = 'buy'
 export const SELL = 'sell'

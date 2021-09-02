@@ -81,5 +81,5 @@ export const Abi = {
   xAAVEPrice,
   xINCHPrice,
   xKNCPrice,
-  xU3LPPrice
+  xU3LPPrice,
 }
