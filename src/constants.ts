@@ -117,3 +117,9 @@ export const LENDING_X_KNC_B_PRICE = 'xKNCbPrice'
 // Trade types
 export const BUY = 'buy'
 export const SELL = 'sell'
+
+// Lending types
+export const BORROW = 'borrow'
+export const REPAY = 'repay'
+export const SUPPLY = 'supply'
+export const WITHDRAW = 'withdraw'
