@@ -13,33 +13,24 @@ import KyberGovernance from './helpers/KyberGovernance.json'
 import KyberProxy from './helpers/KyberProxy.json'
 import MerkleClaim from './helpers/MerkleClaim.json'
 import ProxyAdmin from './helpers/ProxyAdmin.json'
+import Synthetix from './helpers/Synthetix.json'
 import TradeAccounting from './helpers/TradeAccounting.json'
 import UniswapLibrary from './helpers/UniswapLibrary.json'
 import UniswapV2Pair from './helpers/UniswapV2Pair.json'
 import UniswapV3Pool from './helpers/UniswapV3Pool.json'
 import xSNXAdmin from './helpers/xSNXAdmin.json'
-import Synthetix from './helpers/Synthetix.json'
 import xTokenManager from './helpers/xTokenManager.json'
-
-// --- Staking ---
-
-import XTKManagementStakingModule from './staking/XTKManagementStakingModule.json'
-import RevenueController from './staking/RevenueController.json'
-import RewardController from './staking/RewardController.json'
-
-// --- Lending ---
-
 import Comptroller from './lending/Comptroller.json'
-import LiquidityPool from './lending/LiquidityPool.json'
 import LPT from './lending/LPT.json'
+import LiquidityPool from './lending/LiquidityPool.json'
 import Market from './lending/Market.json'
 import xAAVEPrice from './lending/XAAVEPrice.json'
 import xINCHPrice from './lending/XINCHPrice.json'
 import xKNCPrice from './lending/XKNCPrice.json'
 import xU3LPPrice from './lending/XU3LPPrice.json'
-
-// --- xAssets ---
-
+import RevenueController from './staking/RevenueController.json'
+import RewardController from './staking/RewardController.json'
+import XTKManagementStakingModule from './staking/XTKManagementStakingModule.json'
 import xAAVE from './xAssets/xAAVE.json'
 import xBNT from './xAssets/xBNT.json'
 import xINCH from './xAssets/xINCH.json'
@@ -86,5 +77,5 @@ export const Abi = {
   xAAVEPrice,
   xINCHPrice,
   xKNCPrice,
-  xU3LPPrice
+  xU3LPPrice,
 }
