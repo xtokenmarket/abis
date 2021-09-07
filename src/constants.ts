@@ -21,6 +21,7 @@ export const USDT = 'usdt'
 export const UST = 'ust'
 export const WBTC = 'wbtc'
 export const WETH = 'weth'
+export const XTK = 'xtk'
 
 // Helper Contracts
 export const AAVE_GOVERNANCE_V2 = 'aaveGovernanceV2'
@@ -72,6 +73,7 @@ export const X_AAVE_B_AAVE_CLR = 'xAAVEb-AAVE-CLR'
 export const X_KNC_A_KNC_CLR = 'xKNCa-KNC-CLR'
 export const X_KNC_B_KNC_CLR = 'xKNCb-KNC-CLR'
 export const X_SNX_A_SNX_CLR = 'xSNXa-SNX-CLR'
+export const XTK_ETH_CLR = 'XTK-ETH-CLR'
 
 // xAssets
 export const X_AAVE_A = 'xAAVEa'
