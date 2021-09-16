@@ -6,6 +6,7 @@
 // Contracts
 export const AAVE = 'aave'
 export const AAVE_GOVERNANCE_V2 = 'aaveGovernanceV2'
+export const ALPHA = 'alpha'
 export const BALANCER_V2_VAULT = 'balancerV2Vault'
 export const BANCOR_CONTRACT_REGISTRY = 'bancorContractRegistry'
 export const BNT = 'bnt'
