@@ -1,7 +1,11 @@
 import {
   AAVE,
   AAVE_GOVERNANCE_V2,
+<<<<<<< HEAD
   ALPHA,
+=======
+  AAVE_X_AAVE_A_CLR,
+>>>>>>> ae250294c543eeedc1610945e2951abc9af673fd
   BALANCER_V2_VAULT,
   BANCOR_CONTRACT_REGISTRY,
   BNT,
@@ -63,10 +67,13 @@ import {
   X_U3LP_F,
   X_U3LP_G,
   X_U3LP_H,
+  XTK,
+  XTK_ETH_CLR,
   XTK_MANAGEMENT_STAKING_MODULE,
   XTOKEN_MANAGER,
 } from './constants'
 
+// TODO: Sort them into categories similar to `constants.ts`
 export const ADDRESSES: {
   readonly [contract: string]:
     | string
@@ -241,6 +248,9 @@ export const ADDRESSES: {
   [WBTC]: {
     1: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599',
   },
+  [XTK]: {
+    1: '0x7F3EDcdD180Dbe4819Bd98FeE8929b5cEdB3AdEB',
+  },
   [X_U3LP_A]: {
     1: '0xDa4d2152B2230e33c80b0A88b7C28b1C464EE3c2',
     42: '0xA7ab15A9166334bB2EFe3Dc59625a6FEdEcfD517',
@@ -282,12 +292,20 @@ export const ADDRESSES: {
     1: '0x95B6d1848A9940a42F22054084c0590A9997C653',
   },
   [UNISWAP_LIBRARY]: {
-    1: '0x3D426De2961c6A115434D382716878352A63D97c',
+    1: '0xBD289A47C6E00242eac1fc6102aE3e52272aC8cf',
   },
   [XTK_MANAGEMENT_STAKING_MODULE]: {
     1: '0x314022E24ceD941781DC295682634B37Bd0d9cFc',
   },
   [XTOKEN_MANAGER]: {
     1: '0xfA3CaAb19E6913b6aAbdda4E27ac413e96EaB0Ca',
+  },
+
+  // xAsset CLR
+  [AAVE_X_AAVE_A_CLR]: {
+    1: '0xAd5AF0073502afaB66c0cbA8dE6d01AcDf082B76',
+  },
+  [XTK_ETH_CLR]: {
+    1: '0xA3FB85dED2fE725d8Ae21f684E65Db5aAe47192e',
   },
 }
