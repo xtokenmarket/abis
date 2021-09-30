@@ -5,13 +5,7 @@
 
 // ERC20 Tokens
 export const AAVE = 'aave'
-<<<<<<< HEAD
-export const AAVE_GOVERNANCE_V2 = 'aaveGovernanceV2'
 export const ALPHA = 'alpha'
-export const BALANCER_V2_VAULT = 'balancerV2Vault'
-export const BANCOR_CONTRACT_REGISTRY = 'bancorContractRegistry'
-=======
->>>>>>> ae250294c543eeedc1610945e2951abc9af673fd
 export const BNT = 'bnt'
 export const BUSD = 'busd'
 export const DAI = 'dai'
@@ -49,28 +43,6 @@ export const SYNTHETIX_ADDRESS_RESOLVER = 'synthetixAddressResolver'
 export const TRADE_ACCOUNTING = 'tradeAccounting'
 export const UNISWAP_LIBRARY = 'uniswapLibrary'
 export const UNISWAP_V2_PAIR = 'uniswapV2Pair'
-<<<<<<< HEAD
-export const USDC = 'usdc'
-export const USDT = 'usdt'
-export const UST = 'ust'
-export const WBTC = 'wbtc'
-export const WETH = 'weth'
-export const X_ALPHA_A = 'xALPHAa'
-export const X_AAVE_A = 'xAAVEa'
-export const X_AAVE_B = 'xAAVEb'
-export const X_BNT_A = 'xBNTa'
-export const X_BNT_A_BANCOR_POOL = 'xbntaBancorPool'
-export const X_BNT_A_MERKLE_CLAIM = 'xBNTaMerkleClaim'
-export const X_INCH_A = 'xINCHa'
-export const X_INCH_B = 'xINCHb'
-export const X_KNC_A = 'xKNCa'
-export const X_KNC_B = 'xKNCb'
-export const X_KNC_A_KYBER_POOL = 'xkncaKyberPool'
-export const X_KNC_A_UNISWAP_POOL = 'xkncaUniswapPool'
-export const X_KNC_B_UNISWAP_POOL = 'xkncbUniswapPool'
-export const X_SNX_A = 'xSNXa'
-=======
->>>>>>> ae250294c543eeedc1610945e2951abc9af673fd
 export const X_SNX_ADMIN = 'xSNXAdmin'
 export const XTOKEN_MANAGER = 'xTokenManager'
 
@@ -95,6 +67,7 @@ export const XTK_MANAGEMENT_STAKING_MODULE = 'xtkManagementStakingModule'
 
 // xAssetCLR
 export const AAVE_X_AAVE_A_CLR = 'AAVE-xAAVEa-CLR'
+export const ALPHA_X_ALPHA_A_CLR = 'ALPHA-xALPHAa-CLR'
 export const BNT_X_BNT_A_CLR = 'BNT-xBNTa-CLR'
 export const INCH_X_INCH_A_CLR = '1INCH-xINCHa-CLR'
 export const INCH_X_INCH_B_CLR = '1INCH-xINCHb-CLR'
@@ -107,6 +80,7 @@ export const XTK_ETH_CLR = 'XTK-ETH-CLR'
 // xAssets
 export const X_AAVE_A = 'xAAVEa'
 export const X_AAVE_B = 'xAAVEb'
+export const X_ALPHA_A = 'xALPHAa'
 export const X_BNT_A = 'xBNTa'
 export const X_INCH_A = 'xINCHa'
 export const X_INCH_B = 'xINCHb'

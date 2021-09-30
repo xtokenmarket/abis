@@ -22,11 +22,8 @@ import UniswapV2Pair from './UniswapV2Pair.json'
 import UniswapV3Pool from './UniswapV3Pool.json'
 import XTKManagementStakingModule from './XTKManagementStakingModule.json'
 import xAAVE from './xAAVE.json'
-<<<<<<< HEAD
 import xALPHA from './xALPHA.json'
-=======
 import xAssetCLR from './xAssetCLR.json'
->>>>>>> ae250294c543eeedc1610945e2951abc9af673fd
 import xBNT from './xBNT.json'
 import xINCH from './xINCH.json'
 import xKNC from './xKNC.json'
@@ -60,11 +57,8 @@ export const Abi = {
   UniswapV3Pool,
   XTKManagementStakingModule,
   xAAVE,
-<<<<<<< HEAD
   xALPHA,
-=======
   xAssetCLR,
->>>>>>> ae250294c543eeedc1610945e2951abc9af673fd
   xBNT,
   xINCH,
   xKNC,
