@@ -67,7 +67,7 @@ export const XTK_MANAGEMENT_STAKING_MODULE = 'xtkManagementStakingModule'
 
 // xAssetCLR
 export const AAVE_X_AAVE_A_CLR = 'AAVE-xAAVEa-CLR'
-export const ALPHA_X_ALPHA_A_CLR = 'ALPHA-xALPHAa-CLR'
+export const ALPHA_X_ALPHA_A_CLR = 'ALPHA-xALPHA-CLR'
 export const BNT_X_BNT_A_CLR = 'BNT-xBNTa-CLR'
 export const INCH_X_INCH_A_CLR = '1INCH-xINCHa-CLR'
 export const INCH_X_INCH_B_CLR = '1INCH-xINCHb-CLR'
