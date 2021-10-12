@@ -80,7 +80,7 @@ exports.ADDRESSES = {
         42: '0x0363d8e8646feb8376772ac4fc18e1805d45514e',
     },
     [constants_1.X_ALPHA_A]: {
-        1: '0xA23992a1F8a7412BD646487faC9dbFB8f31D6a85',
+        1: '0x244ca1d5331246c926Ff31250b9E82a4916C97E9',
         42: '0x02b584Bd5B4268E08cdF371980260988E6645fb0',
     },
     [constants_1.X_AAVE_B]: {
@@ -228,8 +228,8 @@ exports.ADDRESSES = {
     [constants_1.AAVE_X_AAVE_A_CLR]: {
         1: '0xAd5AF0073502afaB66c0cbA8dE6d01AcDf082B76',
     },
-    [constants_1.ALPHA_X_ALPHA_A_CLR]: {
-        1: '0x7a466372138c781999181FA556A6bd1073eBc5eE',
+    [constants_1.X_ALPHA_A_ALPHA_CLR]: {
+        1: '0xd8401Ee44386AAfFa746d0BCf372B1Bf0b1B784b',
     },
     [constants_1.XTK_ETH_CLR]: {
         1: '0xA3FB85dED2fE725d8Ae21f684E65Db5aAe47192e',
