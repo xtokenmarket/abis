@@ -5,6 +5,7 @@
 
 // ERC20 Tokens
 export const AAVE = 'aave'
+export const ALPHA = 'alpha'
 export const BNT = 'bnt'
 export const BUSD = 'busd'
 export const DAI = 'dai'
@@ -70,6 +71,7 @@ export const BNT_X_BNT_A_CLR = 'BNT-xBNTa-CLR'
 export const INCH_X_INCH_A_CLR = '1INCH-xINCHa-CLR'
 export const INCH_X_INCH_B_CLR = '1INCH-xINCHb-CLR'
 export const X_AAVE_B_AAVE_CLR = 'xAAVEb-AAVE-CLR'
+export const X_ALPHA_A_ALPHA_CLR = 'xALPHAa-ALPHA-CLR'
 export const X_KNC_A_KNC_CLR = 'xKNCa-KNC-CLR'
 export const X_KNC_B_KNC_CLR = 'xKNCb-KNC-CLR'
 export const X_SNX_A_SNX_CLR = 'xSNXa-SNX-CLR'
@@ -78,6 +80,7 @@ export const XTK_ETH_CLR = 'XTK-ETH-CLR'
 // xAssets
 export const X_AAVE_A = 'xAAVEa'
 export const X_AAVE_B = 'xAAVEb'
+export const X_ALPHA_A = 'xALPHAa'
 export const X_BNT_A = 'xBNTa'
 export const X_INCH_A = 'xINCHa'
 export const X_INCH_B = 'xINCHb'
