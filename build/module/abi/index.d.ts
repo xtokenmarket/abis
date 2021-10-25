@@ -389,6 +389,19 @@ export declare const Abi: {
         stateMutability: string;
         type: string;
         anonymous?: undefined;
+    } | {
+        inputs: never[];
+        name: string;
+        outputs: {
+            internalType: string;
+            name: string;
+            type: string;
+        }[];
+        stateMutability: string;
+        type: string;
+        anonymous?: undefined;
+        constant?: undefined;
+        payable?: undefined;
     })[];
     ExchangeRates: ({
         inputs: {
