@@ -3,6 +3,7 @@
  * @module XToken Constants
  */
 export declare const AAVE = "aave";
+export declare const ALPHA = "alpha";
 export declare const BNT = "bnt";
 export declare const BUSD = "busd";
 export declare const DAI = "dai";
@@ -58,12 +59,14 @@ export declare const BNT_X_BNT_A_CLR = "BNT-xBNTa-CLR";
 export declare const INCH_X_INCH_A_CLR = "1INCH-xINCHa-CLR";
 export declare const INCH_X_INCH_B_CLR = "1INCH-xINCHb-CLR";
 export declare const X_AAVE_B_AAVE_CLR = "xAAVEb-AAVE-CLR";
+export declare const X_ALPHA_A_ALPHA_CLR = "xALPHAa-ALPHA-CLR";
 export declare const X_KNC_A_KNC_CLR = "xKNCa-KNC-CLR";
 export declare const X_KNC_B_KNC_CLR = "xKNCb-KNC-CLR";
 export declare const X_SNX_A_SNX_CLR = "xSNXa-SNX-CLR";
 export declare const XTK_ETH_CLR = "XTK-ETH-CLR";
 export declare const X_AAVE_A = "xAAVEa";
 export declare const X_AAVE_B = "xAAVEb";
+export declare const X_ALPHA_A = "xALPHAa";
 export declare const X_BNT_A = "xBNTa";
 export declare const X_INCH_A = "xINCHa";
 export declare const X_INCH_B = "xINCHb";
