@@ -24,6 +24,7 @@ import Comptroller from './lending/Comptroller.json'
 import LPT from './lending/LPT.json'
 import LiquidityPool from './lending/LiquidityPool.json'
 import Market from './lending/Market.json'
+import NativePrice from './lending/NativePrice.json'
 import xAAVEPrice from './lending/XAAVEPrice.json'
 import xINCHPrice from './lending/XINCHPrice.json'
 import xKNCPrice from './lending/XKNCPrice.json'
@@ -78,6 +79,7 @@ export const Abi = {
   LiquidityPool,
   LPT,
   Market,
+  NativePrice,
   xAAVEPrice,
   xINCHPrice,
   xKNCPrice,
