@@ -1,5 +1,6 @@
 import AaveGovernanceV2 from './AaveGovernanceV2.json'
 import AddressResolver from './AddressResolver.json'
+import ArbitrumNFTCore from './ArbitrumNFTCore.json'
 import BalancerPool from './BalancerPool.json'
 import BalancerV2Vault from './BalancerV2Vault.json'
 import BancorContractRegistry from './BancorContractRegistry.json'
@@ -66,4 +67,5 @@ export const Abi = {
   xSNXAdmin,
   xTokenManager,
   xU3LP,
+  ArbitrumNFTCore
 }

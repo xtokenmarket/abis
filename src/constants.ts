@@ -101,3 +101,6 @@ export const X_U3LP_H = 'xU3LPh'
 // Trade types
 export const BUY = 'buy'
 export const SELL = 'sell'
+
+// NFT
+export const ARBITRUM_NFT_CORE = 'ArbitrumNFTCore'
