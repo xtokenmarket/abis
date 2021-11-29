@@ -1,3 +1,5 @@
+import ArbitrumNFTCore from './ArbitrumNFTCore.json'
+import L2NFT from './L2NFT.json'
 import AaveGovernanceV2 from './helpers/AaveGovernanceV2.json'
 import AddressResolver from './helpers/AddressResolver.json'
 import BalancerPool from './helpers/BalancerPool.json'
@@ -84,4 +86,6 @@ export const Abi = {
   xINCHPrice,
   xKNCPrice,
   xU3LPPrice,
+  ArbitrumNFTCore,
+  L2NFT
 }

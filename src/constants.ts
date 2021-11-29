@@ -129,3 +129,6 @@ export const BORROW = 'borrow'
 export const REPAY = 'repay'
 export const SUPPLY = 'supply'
 export const WITHDRAW = 'withdraw'
+// NFT
+export const ARBITRUM_NFT_CORE = 'ArbitrumNFTCore'
+export const L2_NFT = 'L2NFT'
