@@ -142,3 +142,6 @@ export const GA = 'GA'
 export const GN = 'GN'
 export const WAGMI = 'WAGMI'
 
+
+export const LIQUIDITY_POOL = 'liquidityPool'
+
