@@ -1,6 +1,10 @@
-import ArbitrumNFTCore from './ArbitrumNFTCore.json'
-import GM from './GM.json'
-import L2NFT from './L2NFT.json'
+
+import ArbitrumNFTCore from './NFT/ArbitrumNFTCore.json'
+import GM from './NFT/GM.json'
+import L2NFT from './NFT/L2NFT.json'
+import X_ASSET_LEV from './NFT/xAssetLev.json'
+import X_ASSET_LEV_2X from './NFT/xAssetLev2x.json'
+import X_ASSET_LEV_3X from './NFT/xAssetLev3x.json'
 import AaveGovernanceV2 from './helpers/AaveGovernanceV2.json'
 import AddressResolver from './helpers/AddressResolver.json'
 import BalancerPool from './helpers/BalancerPool.json'
@@ -35,9 +39,6 @@ import xU3LPPrice from './lending/XU3LPPrice.json'
 import RevenueController from './staking/RevenueController.json'
 import RewardController from './staking/RewardController.json'
 import XTKManagementStakingModule from './staking/XTKManagementStakingModule.json'
-import X_ASSET_LEV from './xAssetLev.json'
-import X_ASSET_LEV_2X from './xAssetLev2x.json'
-import X_ASSET_LEV_3X from './xAssetLev3x.json'
 import xAAVE from './xAssets/xAAVE.json'
 import xALPHA from './xAssets/xALPHA.json'
 import xAssetCLR from './xAssets/xAssetCLR.json'
@@ -46,6 +47,7 @@ import xINCH from './xAssets/xINCH.json'
 import xKNC from './xAssets/xKNC.json'
 import xSNX from './xAssets/xSNX.json'
 import xU3LP from './xAssets/xU3LP.json'
+
 
 export const Abi = {
   AaveGovernanceV2,
