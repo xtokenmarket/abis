@@ -93,5 +93,5 @@ export const Abi = {
   L2NFT,
   X_ASSET_LEV,
   X_ASSET_LEV_2X,
-  X_ASSET_LEV_3X
+  X_ASSET_LEV_3X,
 }
