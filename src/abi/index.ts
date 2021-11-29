@@ -1,4 +1,3 @@
-
 import ArbitrumNFTCore from './NFT/ArbitrumNFTCore.json'
 import GM from './NFT/GM.json'
 import L2NFT from './NFT/L2NFT.json'
@@ -47,7 +46,6 @@ import xINCH from './xAssets/xINCH.json'
 import xKNC from './xAssets/xKNC.json'
 import xSNX from './xAssets/xSNX.json'
 import xU3LP from './xAssets/xU3LP.json'
-
 
 export const Abi = {
   AaveGovernanceV2,
