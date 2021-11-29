@@ -1,4 +1,5 @@
 import ArbitrumNFTCore from './ArbitrumNFTCore.json'
+import GM from './GM.json'
 import L2NFT from './L2NFT.json'
 import AaveGovernanceV2 from './helpers/AaveGovernanceV2.json'
 import AddressResolver from './helpers/AddressResolver.json'
@@ -94,4 +95,5 @@ export const Abi = {
   X_ASSET_LEV,
   X_ASSET_LEV_2X,
   X_ASSET_LEV_3X,
+  GM,
 }
