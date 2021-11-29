@@ -89,6 +89,10 @@ export const X_KNC_A = 'xKNCa'
 export const X_KNC_B = 'xKNCb'
 export const X_SNX_A = 'xSNXa'
 
+export const X_ASSET_LEV = 'xAssetLev'
+export const X_ASSET_LEV_2X = 'xAssetLev2x'
+export const X_ASSET_LEV_3X = 'xAssetLev3x'
+
 // xU3LP
 export const X_U3LP_A = 'xU3LPa'
 export const X_U3LP_B = 'xU3LPb'

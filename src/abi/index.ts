@@ -34,6 +34,9 @@ import xU3LPPrice from './lending/XU3LPPrice.json'
 import RevenueController from './staking/RevenueController.json'
 import RewardController from './staking/RewardController.json'
 import XTKManagementStakingModule from './staking/XTKManagementStakingModule.json'
+import X_ASSET_LEV from './xAssetLev.json'
+import X_ASSET_LEV_2X from './xAssetLev2x.json'
+import X_ASSET_LEV_3X from './xAssetLev3x.json'
 import xAAVE from './xAssets/xAAVE.json'
 import xALPHA from './xAssets/xALPHA.json'
 import xAssetCLR from './xAssets/xAssetCLR.json'
@@ -87,5 +90,8 @@ export const Abi = {
   xKNCPrice,
   xU3LPPrice,
   ArbitrumNFTCore,
-  L2NFT
+  L2NFT,
+  X_ASSET_LEV,
+  X_ASSET_LEV_2X,
+  X_ASSET_LEV_3X
 }
