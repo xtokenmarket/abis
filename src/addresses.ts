@@ -100,6 +100,7 @@ import {
   XTK_ETH_CLR,
   XTK_MANAGEMENT_STAKING_MODULE,
   XTOKEN_MANAGER,
+  ARBITRUM_NFT_CORE,
 } from './constants'
 
 // TODO: Sort them into categories similar to `constants.ts`
