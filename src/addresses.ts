@@ -100,7 +100,7 @@ import {
   XTK,
   XTK_ETH_CLR,
   XTK_MANAGEMENT_STAKING_MODULE,
-  XTOKEN_MANAGER
+  XTOKEN_MANAGER,
 } from './constants'
 
 // TODO: Sort them into categories similar to `constants.ts`
