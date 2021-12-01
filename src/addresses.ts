@@ -3,6 +3,7 @@ import {
   AAVE_GOVERNANCE_V2,
   AAVE_X_AAVE_A_CLR,
   ALPHA,
+  ARBITRUM_NFT_CORE,
   BALANCER_V2_VAULT,
   BANCOR_CONTRACT_REGISTRY,
   BNT,
@@ -100,7 +101,6 @@ import {
   XTK_ETH_CLR,
   XTK_MANAGEMENT_STAKING_MODULE,
   XTOKEN_MANAGER,
-  ARBITRUM_NFT_CORE,
 } from './constants'
 
 // TODO: Sort them into categories similar to `constants.ts`
@@ -445,6 +445,7 @@ export const ADDRESSES: {
   },
   [LENDING_X_KNC_B_PRICE]: {
     1: '0x769c382124Bd87c78D4316e3dDB77E925c008487',
+  },  
   // NFT
   [ARBITRUM_NFT_CORE]: {
     421611: '0x977f369f8845782Bce218331A0bc68D98aFe835b',
