@@ -85,6 +85,7 @@ export declare const X_U3LP_H = "xU3LPh";
 export declare const LENDING_COMPTROLLER = "Comptroller";
 export declare const LENDING_LIQUIDITY_POOL = "LiquidityPool";
 export declare const LENDING_LPT = "LPT";
+export declare const LENDING_LPT_STAKING = "LPTStaking";
 export declare const LENDING_WBTC_MARKET = "wbtcMarket";
 export declare const LENDING_WETH_MARKET = "wethMarket";
 export declare const LENDING_LINK_MARKET = "linkMarket";
