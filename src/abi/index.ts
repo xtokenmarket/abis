@@ -29,6 +29,13 @@ import xAAVEPrice from './lending/XAAVEPrice.json'
 import xINCHPrice from './lending/XINCHPrice.json'
 import xKNCPrice from './lending/XKNCPrice.json'
 import xU3LPPrice from './lending/XU3LPPrice.json'
+import ArbitrumNFTCore from './nft/ArbitrumNFTCore.json'
+import GM from './nft/GM.json'
+import L2_NFT from './nft/L2NFT.json'
+import liquidityPool from './nft/LiquidityPool.json'
+import xAssetLev from './nft/xAssetLev.json'
+import xAssetLev2x from './nft/xAssetLev2x.json'
+import xAssetLev3x from './nft/xAssetLev3x.json'
 import RevenueController from './staking/RevenueController.json'
 import RewardController from './staking/RewardController.json'
 import XTKManagementStakingModule from './staking/XTKManagementStakingModule.json'
@@ -84,4 +91,11 @@ export const Abi = {
   xINCHPrice,
   xKNCPrice,
   xU3LPPrice,
+  liquidityPool,
+  ArbitrumNFTCore,
+  L2_NFT,
+  GM,
+  xAssetLev,
+  xAssetLev2x,
+  xAssetLev3x,
 }
