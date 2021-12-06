@@ -33,7 +33,6 @@ import ArbitrumNFTCore from './nft/ArbitrumNFTCore.json'
 import GM from './nft/GM.json'
 import L2_NFT from './nft/L2NFT.json'
 import liquidityPool from './nft/LiquidityPool.json'
-import xAssetLev from './nft/xAssetLev.json'
 import xAssetLev2x from './nft/xAssetLev2x.json'
 import xAssetLev3x from './nft/xAssetLev3x.json'
 import RevenueController from './staking/RevenueController.json'
@@ -42,6 +41,7 @@ import XTKManagementStakingModule from './staking/XTKManagementStakingModule.jso
 import xAAVE from './xAssets/xAAVE.json'
 import xALPHA from './xAssets/xALPHA.json'
 import xAssetCLR from './xAssets/xAssetCLR.json'
+import xAssetLev from './xAssets/xAssetLev.json'
 import xBNT from './xAssets/xBNT.json'
 import xINCH from './xAssets/xINCH.json'
 import xKNC from './xAssets/xKNC.json'
@@ -75,6 +75,7 @@ export const Abi = {
   xAAVE,
   xALPHA,
   xAssetCLR,
+  xAssetLev,
   xBNT,
   xINCH,
   xKNC,
@@ -95,7 +96,6 @@ export const Abi = {
   ArbitrumNFTCore,
   L2_NFT,
   GM,
-  xAssetLev,
   xAssetLev2x,
   xAssetLev3x,
 }

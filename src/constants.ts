@@ -78,6 +78,11 @@ export const X_KNC_B_KNC_CLR = 'xKNCb-KNC-CLR'
 export const X_SNX_A_SNX_CLR = 'xSNXa-SNX-CLR'
 export const XTK_ETH_CLR = 'XTK-ETH-CLR'
 
+// xAssetLev
+export const X_BTC_3X = 'xBTC3x'
+export const X_ETH_3X = 'xETH3x'
+// export const X_LINK_3X = 'xLINK3x'
+
 // xAssets
 export const X_AAVE_A = 'xAAVEa'
 export const X_AAVE_B = 'xAAVEb'
