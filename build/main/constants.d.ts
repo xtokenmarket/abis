@@ -118,7 +118,3 @@ export declare const GM = "GM";
 export declare const GA = "GA";
 export declare const GN = "GN";
 export declare const WAGMI = "WAGMI";
-export declare const LIQUIDITY_POOL = "liquidityPool";
-export declare const X_ASSET_LEV = "xAssetLev";
-export declare const X_ASSET_LEV_2X = "xAssetLev2x";
-export declare const X_ASSET_LEV_3X = "xAssetLev3x";
