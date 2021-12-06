@@ -139,8 +139,3 @@ export const GM = 'GM'
 export const GA = 'GA'
 export const GN = 'GN'
 export const WAGMI = 'WAGMI'
-
-export const LIQUIDITY_POOL = 'liquidityPool'
-export const X_ASSET_LEV = 'xAssetLev'
-export const X_ASSET_LEV_2X = 'xAssetLev2x'
-export const X_ASSET_LEV_3X = 'xAssetLev3x'
