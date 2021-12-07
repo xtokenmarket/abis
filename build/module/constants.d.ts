@@ -113,7 +113,6 @@ export declare const REPAY = "repay";
 export declare const SUPPLY = "supply";
 export declare const WITHDRAW = "withdraw";
 export declare const ARBITRUM_NFT_CORE = "ArbitrumNFTCore";
-export declare const L2_NFT = "L2NFT";
 export declare const GM = "GM";
 export declare const GA = "GA";
 export declare const GN = "GN";
