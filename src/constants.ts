@@ -138,7 +138,6 @@ export const WITHDRAW = 'withdraw'
 
 // NFT
 export const ARBITRUM_NFT_CORE = 'ArbitrumNFTCore'
-export const L2_NFT = 'L2NFT'
 
 export const GM = 'GM'
 export const GA = 'GA'

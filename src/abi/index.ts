@@ -31,7 +31,6 @@ import xKNCPrice from './lending/XKNCPrice.json'
 import xU3LPPrice from './lending/XU3LPPrice.json'
 import ArbitrumNFTCore from './nft/ArbitrumNFTCore.json'
 import GM from './nft/GM.json'
-import L2_NFT from './nft/L2NFT.json'
 import RevenueController from './staking/RevenueController.json'
 import RewardController from './staking/RewardController.json'
 import XTKManagementStakingModule from './staking/XTKManagementStakingModule.json'
@@ -90,6 +89,5 @@ export const Abi = {
   xKNCPrice,
   xU3LPPrice,
   ArbitrumNFTCore,
-  L2_NFT,
   GM,
 }
