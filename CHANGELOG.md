@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.22](https://github.com/xtokenmarket/abis/compare/v0.1.21...v0.1.22) (2021-12-08)
+
+
+### Features
+
+* add build ([ee038f8](https://github.com/xtokenmarket/abis/commit/ee038f898473c081da3e68678e079628938a4d01))
+
+
+### Bug Fixes
+
+* fix gm abi ([2d5c0d1](https://github.com/xtokenmarket/abis/commit/2d5c0d1e919bb72fd46e53c5db6bde842c108c9e))
+
 ### [0.1.21](https://github.com/xtokenmarket/abis/compare/v0.1.20...v0.1.21) (2021-12-08)
 
 
