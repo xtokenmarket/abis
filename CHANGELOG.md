@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.21](https://github.com/xtokenmarket/abis/compare/v0.1.20...v0.1.21) (2021-12-08)
+
+
+### Features
+
+* add nft abis ([66aa48a](https://github.com/xtokenmarket/abis/commit/66aa48a7195627ef81b38a954b063718786d0157))
+
+
+### Bug Fixes
+
+* add build ([9211516](https://github.com/xtokenmarket/abis/commit/92115169503aa2df8c7c89ab22764ccd7a722b8b))
+* add missing export ([aa1dd65](https://github.com/xtokenmarket/abis/commit/aa1dd657a3f260aff30cf135cfa16afa6d72ee46))
+* remove build folder ([e72c296](https://github.com/xtokenmarket/abis/commit/e72c2965cf420b6909535f913370b9dd667c75d5))
+
 ### [0.1.20](https://github.com/xtokenmarket/abis/compare/v0.1.19...v0.1.20) (2021-10-13)
 
 ### [0.1.19](https://github.com/xtokenmarket/abis/compare/v0.1.18...v0.1.19) (2021-09-24)
