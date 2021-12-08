@@ -13,6 +13,7 @@ export const ETH = 'eth'
 export const FRAX = 'frax'
 export const INCH = 'inch'
 export const KNC = 'knc'
+export const LINK = 'link'
 export const REN_BTC = 'renBTC'
 export const SNX = 'snx'
 export const S_ETH = 'sETH'
@@ -77,6 +78,11 @@ export const X_KNC_B_KNC_CLR = 'xKNCb-KNC-CLR'
 export const X_SNX_A_SNX_CLR = 'xSNXa-SNX-CLR'
 export const XTK_ETH_CLR = 'XTK-ETH-CLR'
 
+// xAssetLev
+export const X_BTC_3X = 'xBTC3x'
+export const X_ETH_3X = 'xETH3x'
+// export const X_LINK_3X = 'xLINK3x'
+
 // xAssets
 export const X_AAVE_A = 'xAAVEa'
 export const X_AAVE_B = 'xAAVEb'
@@ -98,6 +104,43 @@ export const X_U3LP_F = 'xU3LPf'
 export const X_U3LP_G = 'xU3LPg'
 export const X_U3LP_H = 'xU3LPh'
 
+// Lending
+export const LENDING_COMPTROLLER = 'Comptroller'
+export const LENDING_LIQUIDITY_POOL = 'LiquidityPool'
+export const LENDING_LPT = 'LPT'
+export const LENDING_LPT_STAKING = 'LPTStaking'
+export const LENDING_WBTC_MARKET = 'wbtcMarket'
+export const LENDING_WETH_MARKET = 'wethMarket'
+export const LENDING_LINK_MARKET = 'linkMarket'
+export const LENDING_WBTC_PRICE = 'wbtcPrice'
+export const LENDING_WETH_PRICE = 'wethPrice'
+export const LENDING_LINK_PRICE = 'linkPrice'
+export const LENDING_X_AAVE_A_MARKET = 'xAAVEaMarket'
+export const LENDING_X_AAVE_B_MARKET = 'xAAVEbMarket'
+export const LENDING_X_INCH_A_MARKET = 'xINCHaMarket'
+export const LENDING_X_INCH_B_MARKET = 'xINCHbMarket'
+export const LENDING_X_KNC_A_MARKET = 'xKNCaMarket'
+export const LENDING_X_KNC_B_MARKET = 'xKNCbMarket'
+export const LENDING_X_AAVE_A_PRICE = 'xAAVEaPrice'
+export const LENDING_X_AAVE_B_PRICE = 'xAAVEbPrice'
+export const LENDING_X_INCH_A_PRICE = 'xINCHaPrice'
+export const LENDING_X_INCH_B_PRICE = 'xINCHbPrice'
+export const LENDING_X_KNC_A_PRICE = 'xKNCaPrice'
+export const LENDING_X_KNC_B_PRICE = 'xKNCbPrice'
+
 // Trade types
 export const BUY = 'buy'
 export const SELL = 'sell'
+
+// Lending types
+export const BORROW = 'borrow'
+export const REPAY = 'repay'
+export const SUPPLY = 'supply'
+export const WITHDRAW = 'withdraw'
+
+// NFT
+export const ARBITRUM_NFT_CORE = 'ArbitrumNFTCore'
+export const GA = 'GA'
+export const GM = 'GM'
+export const GN = 'GN'
+export const WAGMI = 'WAGMI'
