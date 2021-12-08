@@ -13,6 +13,7 @@ export const ETH = 'eth'
 export const FRAX = 'frax'
 export const INCH = 'inch'
 export const KNC = 'knc'
+export const LINK = 'link'
 export const REN_BTC = 'renBTC'
 export const SNX = 'snx'
 export const S_ETH = 'sETH'
@@ -23,7 +24,6 @@ export const UST = 'ust'
 export const WBTC = 'wbtc'
 export const WETH = 'weth'
 export const XTK = 'xtk'
-export const LINK = 'link'
 
 // Helper Contracts
 export const AAVE_GOVERNANCE_V2 = 'aaveGovernanceV2'
@@ -103,6 +103,8 @@ export const X_U3LP_E = 'xU3LPe'
 export const X_U3LP_F = 'xU3LPf'
 export const X_U3LP_G = 'xU3LPg'
 export const X_U3LP_H = 'xU3LPh'
+
+// Lending
 export const LENDING_COMPTROLLER = 'Comptroller'
 export const LENDING_LIQUIDITY_POOL = 'LiquidityPool'
 export const LENDING_LPT = 'LPT'
@@ -138,8 +140,7 @@ export const WITHDRAW = 'withdraw'
 
 // NFT
 export const ARBITRUM_NFT_CORE = 'ArbitrumNFTCore'
-
-export const GM = 'GM'
 export const GA = 'GA'
+export const GM = 'GM'
 export const GN = 'GN'
 export const WAGMI = 'WAGMI'
